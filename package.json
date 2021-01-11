@@ -1,0 +1,31 @@
+{
+  "name": "hateoas-hal-types",
+  "version": "1.0.0",
+  "description": "Typescript definitions for HAL in spring hateoas",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyk0128/hateoas-hal-types.git"
+  },
+  "keywords": [
+    "rest",
+    "hal",
+    "hypermedia",
+    "typescript",
+    "json-hints",
+    "hateoas"
+  ],
+  "author": "jyk0128",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jyk0128/hateoas-hal-types/issues"
+  },
+  "homepage": "https://github.com/jyk0128/hateoas-hal-types#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
