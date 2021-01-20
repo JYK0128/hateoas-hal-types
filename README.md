@@ -8,8 +8,8 @@ It exports the following Types:
 |HalLink|href string|
 |RepresentationModel|HalLinks|
 |EntityModel|Properties + Rel Links|
-|CollectionModel|Collection + MetaData Links|
-|PagedModel|Collection Model + PageInfo|
+|CollectionModel|Entity Collection + MetaData Links|
+|PagedModel|Entity Collection + Page Info + Page Links|
 
 ## Example
 ````

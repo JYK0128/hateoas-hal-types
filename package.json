@@ -1,6 +1,6 @@
 {
   "name": "hateoas-hal-types",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Typescript definitions for HAL in spring hateoas",
   "types": "dist/index.d.ts",
   "scripts": {

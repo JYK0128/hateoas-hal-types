@@ -33,15 +33,22 @@ export declare type CollectionModel<T extends Record<string, any> = Record<strin
         profile: HalLink;
         search: HalLink;
     }
-} & EntityModel<T>
+}
 
 export declare type PagedModel<T extends Record<string, any> = Record<string, any>> = {
+    _embedded: Record<string, EntityModel<T>[]>
+    "_links": {
+        "first": HalLink
+        "self": HalLink
+        "next": HalLink
+        "last": HalLink
+    }
     "page": {
         "size": number,
         "totalElements": number,
         "totalPages": number,
         "number": number
     }
-} & CollectionModel<T>
+}
 
 export {};
